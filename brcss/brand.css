@@ -1,0 +1,216 @@
+html body{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.main{
+    justify-content: space-between;
+    max-width: 100%;
+    background: url(../img/intro.png);
+    background-size: 100%;
+    height: 48vh;
+}
+.major{
+    margin-left: 1%;
+}
+.main-text{
+        font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+}
+.text-color{
+    font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Kaushan Script', cursive;
+}
+.text11{
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'IM Fell French Canon SC', serif;
+font-size: 30px;
+}
+.shop{
+    margin-top: 10.8%;
+    margin-left: 14.5%;
+}
+.t-shorts{
+    display: flex;
+}
+.mane{
+    display: none;
+}
+.will{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Old Standard TT', serif;
+    padding: 0 10px 0 60px;
+    max-width: 100%;
+    width: 100%;
+}
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
+.men{
+    display: flex;
+    justify-content: center;
+}
+.look{
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Abril Fatface', cursive;
+}
+.text-main{
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Lobster Two', cursive;
+}
+.down1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.women p{
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Merienda', cursive;
+}
+.award{
+    background: black;
+    width: 130%;
+    height: 25vh;
+    text-align: center;
+    line-height: 140%;
+    font-size: 35px;
+    color: white;
+}
+.down p {
+    font-size: 35px;
+}
+.down{
+    justify-content: space-evenly;
+    display: flex;
+}
+.socials{
+    margin-left: 10%;
+    text-align: center;
+    justify-content: space-evenly;
+    background: green;
+    width: 40%;
+    height: 25vh;
+}
+.socials a{
+    padding: 0 5px 0 60px;
+}
+.most{
+    justify-content: space-evenly;
+    display: flex;
+    color: wheat;
+}
+@media screen and (max-width: 420px){
+    .will{
+        margin-right: 20%;
+    }
+    .main{
+        margin-bottom: -25%;
+        background: url(https://rukminim1.flixcart.com/image/714/857/jwmfcsw0/t-shirt/p/f/d/xxl-awt1020ol-aelomart-original-imaf7qdtbzggxbpu.jpeg?q=50) ;
+        background-size: 100%;
+    }
+    .this{
+        margin-top: 70%;
+    }
+    .shop{
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+    .down1{
+        max-width: 100%;
+        display: block;
+    }
+    .down{
+        display: block;
+    }
+    .award{
+        width: 60%;
+        margin-left: 20%;
+        height: 20%;
+    }
+    .also p {
+        font-size: 20px;
+    }
+    .socials img{
+        width: 5%;
+    }
+    .socials {
+        margin-left: -0%;
+        width: 100%;
+        height: 50%;
+    }
+    .most{
+        font-size: 10px;
+    }
+}
